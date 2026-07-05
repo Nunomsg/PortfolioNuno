@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f4f4f4;
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background: #0078D7;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá! Bem-vindo ao meu GitHub Pages 👋</h1>
+    <button onclick="mostrarMensagem()">Clica aqui</button>
+
+    <script>
+        function mostrarMensagem() {
+            alert("Olá! Esta página está a funcionar corretamente! 🎉");
+        }
+    </script>
+</body>
+</html>
